@@ -1,4 +1,4 @@
-package com.example.inheritanceExample;
+package com.example.polymorphism;
 //Metho overload to achieve Polymorphism
 class Test{
     void show(){
@@ -14,7 +14,6 @@ class Test{
         System.out.println(i);
     }
 }
-
 public class PolyMorphismCompileTimeEx {
     public static void main(String[] args) {
 
