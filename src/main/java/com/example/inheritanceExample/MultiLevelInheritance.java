@@ -17,6 +17,8 @@ class C1 extends B1{
 }
 //multilevel
 // A -> B -> C
+// there are mainly three types of inheritance is there in Java
+// Single, MultiLevel and Hierarchical
 public class MultiLevelInheritance {
     public static void main(String[] args) {
         A1 obj1=new A1();
