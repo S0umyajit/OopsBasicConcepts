@@ -30,7 +30,5 @@ public class HierarchicalInheritanceEx {
         System.out.println("======================= C2 class========================");
         obj3.showA();
         obj3.showC();
-
-
     }
 }
