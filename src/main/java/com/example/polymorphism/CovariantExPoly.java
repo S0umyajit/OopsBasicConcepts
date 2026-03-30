@@ -5,7 +5,6 @@ class MyTess {
         return "hello";
     }
 }
-
 class MyTess2 extends MyTess{
     String show(){
         return "Bye";
