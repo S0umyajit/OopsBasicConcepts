@@ -8,6 +8,9 @@ class Test01{
     void display(){
         System.out.println("this is the end from parent");
     }
+    void print(){
+        System.out.println("Who Am I");
+    }
 }
 class Test02 extends Test01{
     @Override
@@ -17,6 +20,9 @@ class Test02 extends Test01{
     synchronized void display(){
         System.out.println("This is the end from child");
     }
+    strictfp void print(){
+        System.out.println("WhoAmI from child");
+    }
 }
 public class MethodOverrideSynchronizedEx {
     public static void main(String[] args) {
@@ -24,10 +30,12 @@ public class MethodOverrideSynchronizedEx {
         Test02 a=new Test02();
         a.display();
         a.show();
+        a.print();
         System.out.println("==========================Parent class ================================");
         Test01 b=new Test01();
         b.show();
         b.display();
+        b.print();
 
     }
 }
