@@ -4,7 +4,6 @@ class OuterClass{
     public void callMe(){
         System.out.println("Hello from Outer");
     }
-
     static class InnerClass{
         public void printRes(){
             System.out.println("hello from Inner class");
