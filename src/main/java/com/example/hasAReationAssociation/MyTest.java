@@ -1,4 +1,8 @@
 package com.example.hasAReationAssociation;
+
+/**
+ * Composition Example
+ */
 class Address{
     String city="Shanksahar";
     String state="WestBengal";
@@ -23,6 +27,5 @@ public class MyTest {
         s1.name="Soumyajit";
         s1.age=26;
         s1.printDetails();
-
     }
 }
