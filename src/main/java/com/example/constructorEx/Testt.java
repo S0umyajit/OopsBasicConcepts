@@ -17,10 +17,8 @@ public class Testt {
     public void printM(){
         System.out.println(age+" "+name);
     }
-
     public static void main(String[] args) {
         Testt t=new Testt();
         t.printM();
-
     }
 }
