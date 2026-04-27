@@ -20,7 +20,6 @@ class OfficeWorker{
         p.print("Normal");
     }
 }
-
 public class MyPrac {
     public static void main(String[] args) {
         Printer p=new Printer();
