@@ -15,7 +15,6 @@ public class OuterClassTT {
         InnerClass innerClass=new InnerClass();
        innerClass.innerMeth();
     }
-
     public static void main(String[] args) {
         OuterClassTT outerClassTT=new OuterClassTT();
         outerClassTT.myMeth();
