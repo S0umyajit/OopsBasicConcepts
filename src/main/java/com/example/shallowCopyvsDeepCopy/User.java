@@ -10,30 +10,30 @@ public class User implements Cloneable{
         this.address = address;
         this.rollNo = rollNo;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getRollNo() {
-        return rollNo;
-    }
-
-    public void setRollNo(int rollNo) {
-        this.rollNo = rollNo;
-    }
-
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public int getRollNo() {
+//        return rollNo;
+//    }
+//
+//    public void setRollNo(int rollNo) {
+//        this.rollNo = rollNo;
+//    }
+//
+//    public Address getAddress() {
+//        return address;
+//    }
+//
+//    public void setAddress(Address address) {
+//        this.address = address;
+//    }
 
     @Override
     public String toString() {
@@ -53,7 +53,7 @@ public class User implements Cloneable{
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
-        user.address=(Address) this.address.clone();
+//        user.address=(Address) this.address.clone();
         return user;
     }
 }

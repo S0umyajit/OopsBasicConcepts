@@ -18,15 +18,15 @@ public class Address implements Cloneable{
                 '}';
     }
 
-    public Object clone() throws CloneNotSupportedException{
-
-        Address addr=null;
-
-        try{
-            addr= (Address) super.clone();
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-        }
-        return addr;
-    }
+//    public Object clone() throws CloneNotSupportedException{
+//
+//        Address addr=null;
+//
+//        try{
+//            addr= (Address) super.clone();
+//        }catch (Exception e){
+//            System.out.println(e.getMessage());
+//        }
+//        return addr;
+//    }
 }
