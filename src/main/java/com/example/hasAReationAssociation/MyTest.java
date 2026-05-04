@@ -8,6 +8,7 @@ class Address{
     String state="WestBengal";
 
     public void printAddress(){
+
         System.out.println(city+"( "+state+" )");
     }
 }

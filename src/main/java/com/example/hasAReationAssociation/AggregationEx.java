@@ -24,6 +24,7 @@ class MusicPlayer{
     String brand;
 
     MusicPlayer(String brand){
+
         this.brand=brand;
     }
 
