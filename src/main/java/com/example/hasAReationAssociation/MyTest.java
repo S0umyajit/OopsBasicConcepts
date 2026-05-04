@@ -15,18 +15,25 @@ class Address{
 class Student{
     int age;
     String name;
-    Address address=new Address();
-    public void printDetails(){
-        System.out.println(age+" "+name);
-        address.printAddress();
+    Address address;
+//    Address address=new Address();
+//    public void printDetails(){
+//        System.out.println(age+" "+name);
+//        address.printAddress();
+//    }
+
+    public Student(int age, String name, Address address) {
+        this.age = age;
+        this.name = name;
+        this.address = address;
     }
+
 }
 
 public class MyTest {
     public static void main(String[] args) {
-        Student s1=new Student();
-        s1.name="Soumyajit";
-        s1.age=26;
-        s1.printDetails();
+        Student s1=new Student(23,"Soumya",new Address());
+//        s1=null;
+        s1.address.printAddress();
     }
 }
