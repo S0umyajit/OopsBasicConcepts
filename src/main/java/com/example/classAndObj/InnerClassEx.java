@@ -3,6 +3,7 @@ package com.example.classAndObj;
 class OuterClassEx{
     class InnerClassExTT {
         public void testMe(){
+
             System.out.println("Hi from InnerClassEx testme Method");
         }
     }
