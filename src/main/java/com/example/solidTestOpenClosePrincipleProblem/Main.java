@@ -8,9 +8,9 @@ public class Main {
         PrintInvoice pi=new PrintInvoice(sp);
         pi.printInvoice();
 
-        SaveToDb saveToDb=new SaveToDb(sp);
-        saveToDb.saveToSQLDB();
-        saveToDb.saveToFile();
-        saveToDb.saveToMongoDb();
+        SaveToDb saveToSqlDb=new SQLDatabase(sp);
+        saveToSqlDb.save();
+        SaveToDb saveToMongoDb=new MonoDatabase(sp);
+        saveToMongoDb.save();
     }
 }
