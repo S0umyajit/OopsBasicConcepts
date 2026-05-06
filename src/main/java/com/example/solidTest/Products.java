@@ -26,10 +26,18 @@ public class Products {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Products{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
 
 class ShoppingCart{
-
+    private Products p;
     public ArrayList<Products> products=new ArrayList<>();
 
     public void addProduct(Products p){
